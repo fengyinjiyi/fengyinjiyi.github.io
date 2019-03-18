@@ -1,0 +1,1 @@
+!function(n,t,e){var o;o="",o+='<button class="btn-copy" data-clipboard-snippet="">',o+="<span>复制</span>",o+="</button>",$(".highlight .code pre").before(o),new ClipboardJS(".btn-copy",{target:function(n){return n.nextElementSibling}})}(window,document);
